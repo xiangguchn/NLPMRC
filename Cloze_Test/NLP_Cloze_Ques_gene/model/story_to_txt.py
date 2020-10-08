@@ -44,7 +44,7 @@ def main():
         stories.append(story)
     
     # save all stories to txt file
-    stories_path='{}\\dataset\\cnnstories.txt'.format(filePath)    
+    stories_path='{}\\dataset\\cnnstories.txt'.format(BASE_DIR)    
     save_stories(stories, stories_path)
     
     
