@@ -26,14 +26,7 @@ def story_token(stories_path):
 
                 
 def build_vocab(items, sort=True, min_count=0, lower=False):
-    """
-    构建词典列表
-    :param items: list  [item1, item2, ... ]
-    :param sort: 是否按频率排序，否则按items排序
-    :param min_count: 词典最小频次
-    :param lower: 是否小写
-    :return: list: word set
-    """
+
     result = []
     if sort:
         dic = defaultdict(int)
